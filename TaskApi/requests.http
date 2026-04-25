@@ -64,3 +64,19 @@ Accept: application/json
 ###
 
 DELETE {{baseUrl}}/api/tasks/4
+
+PATCH  {{baseUrl}}/api/tasks/2/complete
+
+DELETE {{baseUrl}}/api/tasks/4
+
+GET {{baseUrl}}/api/tasks/search?query=ASP
+
+GET {{baseUrl}}/api/tasks/priority/High
+
+Get {{baseUrl}}/api/tasks/stats
+
+Get {{baseUrl}}/api/tasks/sorted?by=priority&desc=false
+
+
+
+
